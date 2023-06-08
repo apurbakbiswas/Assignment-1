@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+<script>
+
+
+const book1 = {
+  name: "Apurba Biswas",
+  author: "Apurba",
+  price: 999
+    };
+
+const book2 = {
+  name: "Apurba Book 2",
+  author: "Biswas",
+  price: 1999
+    };
+
+const books = [book1, book2];
+
+books.forEach((book, index) => 
+{
+  console.log(`Book ${index + 1}:`);
+  console.log("Name:", book.name);
+  console.log("Author:", book.author);
+  console.log("Price:", book.price);
+  console.log("***************");
+});
+
+
+
+</script>
+
+
+
+</body>
+</html>
